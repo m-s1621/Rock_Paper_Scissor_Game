@@ -1,0 +1,122 @@
+
+ 
+
+body {background-image: linear-gradient(#3CA6A6, #012E40); color: #012E40;
+    font-family: Verdana, Arial, sans-serif;}
+    
+
+header > h1 {color: #3CA6A6;
+           text-align: center;
+           font-family: Asap, sans-serif;
+           
+           }  
+
+header {background-color: #024959;  
+  padding: 20px;
+}   
+
+#wrapper {width: 80%; background-color: #C7D7D9; margin-left: auto;
+         margin-right: auto; box-shadow: 3px 3px 3px #333333; padding: 30px;}
+
+.score-board {margin: 20px auto;
+            border: 3px solid #024959;
+            width: 200px;
+            height: 100px;
+            color: #3CA6A6;
+            font-size: 40px;
+            text-align: center;
+            border-radius: 15%;
+            padding: 0px 50px;
+            font-family: Asap, sans-serif;
+      }
+
+
+.badge {background-color: #024959;
+      font-size:14px;
+      width: 50px;
+      padding: 6px 10px;
+      font-family: Asap, sans-serif;
+}
+
+#user-label {
+position: relative;
+top: 38px;
+left: -80px
+}
+
+#comp-label {
+position: relative;
+top: 10px;
+left: 215px;
+}
+
+.result {font-size: 40px; color: #024959;}
+
+.result  p {text-align: center; }
+
+#action-message {text-align: center; color:#024959; font-size: 40px;}
+
+footer {text-align: center; }
+
+#action-message {text-align: center; color:#024959; font-size: 40px;}
+
+.circle-container {
+  position: relative;
+  width: 500px; 
+  height: 400px; 
+  margin: 50px auto; 
+}
+
+.circle {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+
+
+}
+
+.circle:hover {
+  transform: scale(1.1); 
+}
+
+#r { top: 10%; left: 35%; }
+#p { top: 10%; left: 5%; }
+#s { top: 10%; left: 65%; }
+#u { bottom: 10%; left: 20%; }
+#l { bottom: 10%; left: 50%; }
+
+
+.text-overlay {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #012E40;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.circle:hover .text-overlay {
+  opacity: 1;
+}
+
+
+/* 
+Color Theme Swatches in Hex 
+.Deep-Teal-Sea-1-hex { color: #012E40; }
+.Deep-Teal-Sea-2-hex { color: #024959; }
+.Deep-Teal-Sea-3-hex { color: #026773; }
+.Deep-Teal-Sea-4-hex { color: #3CA6A6; }
+.Deep-Teal-Sea-5-hex { color: #F2E3D5; }
+#C7D7D9 
+*/
+
+
+
+
+
+
+
